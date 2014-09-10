@@ -1,7 +1,6 @@
 import os
 
 from flask import Flask
-# from flask.ext.migrate import Migrate
 
 from edible_mushroom.core import csrf
 from edible_mushroom.lib.helpers import register_blueprints
