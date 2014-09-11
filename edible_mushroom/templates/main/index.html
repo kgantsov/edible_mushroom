@@ -1,9 +1,152 @@
 {% extends "base.html" %}
 
 
-{% block title %}Main Page{% endblock %}
+{% block title %}{{ gettext('Edible mushrooms') }}{% endblock %}
 
 
 {% block content %}
-    Hello
+    {% if result %}
+        {% if result == 'e' %}
+            <p class="bg-success">{{ gettext('Edible') }}</p>
+        {% else %}
+            <p class="bg-danger">{{ gettext('Poisoning') }}</p>
+        {% endif %}
+    {% endif %}
+
+    <form class="form-horizontal" role="form" method="POST">
+        {{ form.csrf_token }}
+        <div class="form-group">
+            {{ form.cap_shape.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.cap_shape(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.cap_surface.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.cap_surface(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.cap_color.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.cap_color(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.bruises.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.bruises(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.odor.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.odor(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.gill_attachment.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.gill_attachment(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.gill_spacing.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.gill_spacing(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.gill_size.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.gill_size(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.gill_color.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.gill_color(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.stalk_shape.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.stalk_shape(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.stalk_root.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.stalk_root(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.stalk_surface_above_ring.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.stalk_surface_above_ring(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.stalk_surface_below_ring.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.stalk_surface_below_ring(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.stalk_color_above_ring.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.stalk_color_above_ring(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.stalk_color_below_ring.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.stalk_color_below_ring(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.veil_type.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.veil_type(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.veil_color.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.veil_color(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.ring_number.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.ring_number(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.ring_type.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.ring_type(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.spore_print_color.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.spore_print_color(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.population.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.population(class_='form-control') }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.habitat.label(class_='col-sm-2 control-label') }}
+            <div class="col-sm-10">
+                {{ form.habitat(class_='form-control') }}
+            </div>
+        </div>
+        {{ form.submit(class_='btn btn-default') }}
+    </form>
 {% endblock %}

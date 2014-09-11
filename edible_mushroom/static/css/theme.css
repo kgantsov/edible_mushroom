@@ -16,3 +16,23 @@ body {
 .theme-showcase .navbar .container {
   width: auto;
 }
+
+p.bg-primary {
+    padding: 15px;
+}
+
+p.bg-success {
+    padding: 15px;
+}
+
+p.bg-info {
+    padding: 15px;
+}
+
+p.bg-warning {
+    padding: 15px;
+}
+
+p.bg-danger {
+    padding: 15px;
+}

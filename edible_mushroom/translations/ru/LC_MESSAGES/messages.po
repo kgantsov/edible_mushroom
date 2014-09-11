@@ -1,0 +1,478 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2014 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-09-11 00:39+0300\n"
+"PO-Revision-Date: 2014-09-10 23:48+0200\n"
+"Last-Translator: Gantsov Konstantin <k.gantsov@gmail.com>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+
+#: edible_mushroom/modules/main/form.py:10
+msgid "Cap shape"
+msgstr "Форма шляпки"
+
+#: edible_mushroom/modules/main/form.py:12
+msgid "Bell"
+msgstr "Колокольчатая"
+
+#: edible_mushroom/modules/main/form.py:13
+msgid "Conical"
+msgstr "Коническая"
+
+#: edible_mushroom/modules/main/form.py:14
+msgid "Convex"
+msgstr "Полушаровидная"
+
+#: edible_mushroom/modules/main/form.py:15
+msgid "Flat"
+msgstr "Плоская"
+
+#: edible_mushroom/modules/main/form.py:16
+msgid "Knobbed"
+msgstr "Выпуклая"
+
+#: edible_mushroom/modules/main/form.py:17
+msgid "Sunken"
+msgstr "Впуклая"
+
+#: edible_mushroom/modules/main/form.py:21
+msgid "Cap surface"
+msgstr "Поверхность шляпки"
+
+#: edible_mushroom/modules/main/form.py:23
+#: edible_mushroom/modules/main/form.py:119
+#: edible_mushroom/modules/main/form.py:128
+msgid "Fibrous"
+msgstr "Волокнистая"
+
+#: edible_mushroom/modules/main/form.py:24
+msgid "Grooves"
+msgstr "Желобоковая"
+
+#: edible_mushroom/modules/main/form.py:25
+#: edible_mushroom/modules/main/form.py:120
+#: edible_mushroom/modules/main/form.py:129
+msgid "Scaly"
+msgstr "Чешуйчатая"
+
+#: edible_mushroom/modules/main/form.py:26
+#: edible_mushroom/modules/main/form.py:122
+#: edible_mushroom/modules/main/form.py:131
+msgid "Smooth"
+msgstr "Гладкая"
+
+#: edible_mushroom/modules/main/form.py:30
+msgid "Cap color"
+msgstr "Цвет шляпки"
+
+#: edible_mushroom/modules/main/form.py:32
+#: edible_mushroom/modules/main/form.py:87
+#: edible_mushroom/modules/main/form.py:137
+#: edible_mushroom/modules/main/form.py:151
+#: edible_mushroom/modules/main/form.py:169
+#: edible_mushroom/modules/main/form.py:198
+msgid "Brown"
+msgstr "Коричневый"
+
+#: edible_mushroom/modules/main/form.py:33
+#: edible_mushroom/modules/main/form.py:88
+#: edible_mushroom/modules/main/form.py:138
+#: edible_mushroom/modules/main/form.py:152
+#: edible_mushroom/modules/main/form.py:199
+msgid "Buff"
+msgstr "Темно-желтый"
+
+#: edible_mushroom/modules/main/form.py:34
+#: edible_mushroom/modules/main/form.py:139
+#: edible_mushroom/modules/main/form.py:153
+msgid "Cinnamon"
+msgstr "Светло-коричневый"
+
+#: edible_mushroom/modules/main/form.py:35
+#: edible_mushroom/modules/main/form.py:90
+#: edible_mushroom/modules/main/form.py:140
+#: edible_mushroom/modules/main/form.py:154
+msgid "Gray"
+msgstr "Серый"
+
+#: edible_mushroom/modules/main/form.py:36
+#: edible_mushroom/modules/main/form.py:91
+#: edible_mushroom/modules/main/form.py:201
+msgid "Green"
+msgstr "Зеленый"
+
+#: edible_mushroom/modules/main/form.py:37
+#: edible_mushroom/modules/main/form.py:93
+#: edible_mushroom/modules/main/form.py:142
+#: edible_mushroom/modules/main/form.py:156
+msgid "Pink"
+msgstr "Розовый"
+
+#: edible_mushroom/modules/main/form.py:38
+#: edible_mushroom/modules/main/form.py:94
+#: edible_mushroom/modules/main/form.py:203
+msgid "Purple"
+msgstr "Фиолетовый"
+
+#: edible_mushroom/modules/main/form.py:39
+#: edible_mushroom/modules/main/form.py:95
+#: edible_mushroom/modules/main/form.py:143
+#: edible_mushroom/modules/main/form.py:157
+msgid "Red"
+msgstr "Красный"
+
+#: edible_mushroom/modules/main/form.py:40
+#: edible_mushroom/modules/main/form.py:96
+#: edible_mushroom/modules/main/form.py:144
+#: edible_mushroom/modules/main/form.py:158
+#: edible_mushroom/modules/main/form.py:171
+#: edible_mushroom/modules/main/form.py:204
+msgid "White"
+msgstr "Белый"
+
+#: edible_mushroom/modules/main/form.py:41
+#: edible_mushroom/modules/main/form.py:97
+#: edible_mushroom/modules/main/form.py:145
+#: edible_mushroom/modules/main/form.py:159
+#: edible_mushroom/modules/main/form.py:172
+#: edible_mushroom/modules/main/form.py:205
+msgid "Yellow"
+msgstr "Желтый"
+
+#: edible_mushroom/modules/main/form.py:45
+#: edible_mushroom/modules/main/form.py:46
+msgid "Bruises"
+msgstr "Побитость"
+
+#: edible_mushroom/modules/main/form.py:46
+msgid "No"
+msgstr "Нет"
+
+#: edible_mushroom/modules/main/form.py:49
+msgid "Odor"
+msgstr "Запах"
+
+#: edible_mushroom/modules/main/form.py:51
+msgid "Almond"
+msgstr "Миндальный"
+
+#: edible_mushroom/modules/main/form.py:52
+msgid "Anise"
+msgstr "Анисовый"
+
+#: edible_mushroom/modules/main/form.py:53
+msgid "Creosote"
+msgstr "Креозот"
+
+#: edible_mushroom/modules/main/form.py:54
+msgid "Fishy"
+msgstr "Рыбный"
+
+#: edible_mushroom/modules/main/form.py:55
+msgid "Foul"
+msgstr "Вонючий"
+
+#: edible_mushroom/modules/main/form.py:56
+msgid "Musty"
+msgstr "Заплесневелый"
+
+#: edible_mushroom/modules/main/form.py:57
+#: edible_mushroom/modules/main/form.py:178
+#: edible_mushroom/modules/main/form.py:188
+msgid "None"
+msgstr "Нет"
+
+#: edible_mushroom/modules/main/form.py:58
+msgid "Pungent"
+msgstr "Острый"
+
+#: edible_mushroom/modules/main/form.py:59
+msgid "Spicy"
+msgstr "Пряный"
+
+#: edible_mushroom/modules/main/form.py:63
+msgid "Gill attachment"
+msgstr "Прикрепление пластинок к ножке"
+
+#: edible_mushroom/modules/main/form.py:65
+msgid "Attached"
+msgstr "Приросшие"
+
+#: edible_mushroom/modules/main/form.py:66
+msgid "Descending"
+msgstr "Нисходящие"
+
+#: edible_mushroom/modules/main/form.py:67
+msgid "Free"
+msgstr "Свободные"
+
+#: edible_mushroom/modules/main/form.py:68
+msgid "Notched"
+msgstr "Приросшие рубцом"
+
+#: edible_mushroom/modules/main/form.py:72
+msgid "Gill spacing"
+msgstr "Пространство между пластинок"
+
+#: edible_mushroom/modules/main/form.py:74
+msgid "Close"
+msgstr "Близко"
+
+#: edible_mushroom/modules/main/form.py:75
+msgid "Crowded"
+msgstr "Прижатый"
+
+#: edible_mushroom/modules/main/form.py:76
+msgid "Distant"
+msgstr "Редкие"
+
+#: edible_mushroom/modules/main/form.py:80
+msgid "Gill size"
+msgstr "Размер пластинок"
+
+#: edible_mushroom/modules/main/form.py:81
+msgid "Broad"
+msgstr "Широкие"
+
+#: edible_mushroom/modules/main/form.py:81
+msgid "Narrow"
+msgstr "Узкие"
+
+#: edible_mushroom/modules/main/form.py:84
+msgid "Gill color"
+msgstr "Цвет пластинок"
+
+#: edible_mushroom/modules/main/form.py:86
+#: edible_mushroom/modules/main/form.py:197
+msgid "Black"
+msgstr "Черный"
+
+#: edible_mushroom/modules/main/form.py:89
+#: edible_mushroom/modules/main/form.py:200
+msgid "Chocolate"
+msgstr "Шоколадного цвета"
+
+#: edible_mushroom/modules/main/form.py:92
+#: edible_mushroom/modules/main/form.py:141
+#: edible_mushroom/modules/main/form.py:155
+#: edible_mushroom/modules/main/form.py:170
+#: edible_mushroom/modules/main/form.py:202
+msgid "Orange"
+msgstr "Оранжевый"
+
+#: edible_mushroom/modules/main/form.py:101
+msgid "Stalk shape"
+msgstr "Форма стебеля"
+
+#: edible_mushroom/modules/main/form.py:102
+msgid "Enlarging"
+msgstr "Утолщенная книзу"
+
+#: edible_mushroom/modules/main/form.py:102
+msgid "Tapering"
+msgstr "Суженная книзу"
+
+#: edible_mushroom/modules/main/form.py:105
+msgid "Stalk root"
+msgstr "Корень стебеля"
+
+#: edible_mushroom/modules/main/form.py:107
+msgid "Bulbous"
+msgstr "Луковицеобразный"
+
+#: edible_mushroom/modules/main/form.py:108
+msgid "Club"
+msgstr "Клубневидная"
+
+#: edible_mushroom/modules/main/form.py:109
+msgid "Cup"
+msgstr "Чашевидная"
+
+#: edible_mushroom/modules/main/form.py:110
+msgid "Equal"
+msgstr "Цилиндрическая"
+
+#: edible_mushroom/modules/main/form.py:111
+msgid "Rhizomorphs"
+msgstr "Ризоморфа"
+
+#: edible_mushroom/modules/main/form.py:112
+msgid "Rooted"
+msgstr "Укоренившийся"
+
+#: edible_mushroom/modules/main/form.py:113
+msgid "Missing"
+msgstr "Отсутствующий"
+
+#: edible_mushroom/modules/main/form.py:117
+msgid "Stalk surface above ring"
+msgstr "Поверхность стебля над кольцом"
+
+#: edible_mushroom/modules/main/form.py:121
+#: edible_mushroom/modules/main/form.py:130
+msgid "Silky"
+msgstr "Бархатистый"
+
+#: edible_mushroom/modules/main/form.py:126
+msgid "Stalk surface below ring"
+msgstr "Поверхность стебля под кольцом"
+
+#: edible_mushroom/modules/main/form.py:135
+msgid "Stalk color above ring"
+msgstr "Цвет стебля над кольцом"
+
+#: edible_mushroom/modules/main/form.py:149
+msgid "Stalk color below ring"
+msgstr "Цвет стебля под кольцом"
+
+#: edible_mushroom/modules/main/form.py:163
+msgid "Veil type"
+msgstr "Тип покрывала"
+
+#: edible_mushroom/modules/main/form.py:164
+msgid "Partial"
+msgstr "Частичное"
+
+#: edible_mushroom/modules/main/form.py:164
+msgid "Universal"
+msgstr "Универсальное"
+
+#: edible_mushroom/modules/main/form.py:167
+msgid "Veil color"
+msgstr "Цвет покрывала"
+
+#: edible_mushroom/modules/main/form.py:176
+msgid "Ring number"
+msgstr "Количество колец"
+
+#: edible_mushroom/modules/main/form.py:178
+msgid "One"
+msgstr "Одно"
+
+#: edible_mushroom/modules/main/form.py:178
+msgid "Two"
+msgstr "Два"
+
+#: edible_mushroom/modules/main/form.py:182
+msgid "Ring type"
+msgstr "Тип кольца"
+
+#: edible_mushroom/modules/main/form.py:184
+msgid "Cobwebby"
+msgstr "Затянутый паутиной"
+
+#: edible_mushroom/modules/main/form.py:185
+msgid "Evanescent"
+msgstr "Бесконечно малый"
+
+#: edible_mushroom/modules/main/form.py:186
+msgid "Flaring"
+msgstr "Расширяющийся книзу"
+
+#: edible_mushroom/modules/main/form.py:187
+msgid "Large"
+msgstr "Большой"
+
+#: edible_mushroom/modules/main/form.py:189
+msgid "Pendant"
+msgstr "Подвесной"
+
+#: edible_mushroom/modules/main/form.py:190
+msgid "Sheathing"
+msgstr "Обшивка"
+
+#: edible_mushroom/modules/main/form.py:191
+msgid "Zone"
+msgstr "Зона"
+
+#: edible_mushroom/modules/main/form.py:195
+msgid "Spore print color"
+msgstr "Цвет спорового отпечатка"
+
+#: edible_mushroom/modules/main/form.py:209
+msgid "Population"
+msgstr "Население"
+
+#: edible_mushroom/modules/main/form.py:211
+msgid "Abundant"
+msgstr "Обильные"
+
+#: edible_mushroom/modules/main/form.py:212
+msgid "Clustered"
+msgstr "Гроздьями"
+
+#: edible_mushroom/modules/main/form.py:213
+msgid "Numerous"
+msgstr "Многочисленный"
+
+#: edible_mushroom/modules/main/form.py:214
+msgid "Scattered"
+msgstr "Переменный"
+
+#: edible_mushroom/modules/main/form.py:215
+msgid "Several"
+msgstr "Отдельный"
+
+#: edible_mushroom/modules/main/form.py:216
+msgid "Solitary"
+msgstr "Одиночный"
+
+#: edible_mushroom/modules/main/form.py:220
+msgid "Habitat"
+msgstr "Естественная среда"
+
+#: edible_mushroom/modules/main/form.py:222
+msgid "Grasses"
+msgstr "Трава"
+
+#: edible_mushroom/modules/main/form.py:223
+msgid "Leaves"
+msgstr "Листья"
+
+#: edible_mushroom/modules/main/form.py:224
+msgid "Meadows"
+msgstr "Луга"
+
+#: edible_mushroom/modules/main/form.py:225
+msgid "Paths"
+msgstr "Тропы"
+
+#: edible_mushroom/modules/main/form.py:226
+msgid "Urban"
+msgstr "Городской"
+
+#: edible_mushroom/modules/main/form.py:227
+msgid "Waste"
+msgstr "Отходы"
+
+#: edible_mushroom/modules/main/form.py:228
+msgid "Woods"
+msgstr "Леса"
+
+#: edible_mushroom/modules/main/form.py:231
+msgid "Check mushroom"
+msgstr "Проверить"
+
+#: edible_mushroom/templates/main/index.html:4
+msgid "Edible mushrooms"
+msgstr "Съедобные грибы"
+
+#: edible_mushroom/templates/main/index.html:10
+msgid "Edible"
+msgstr "Съедобные"
+
+#: edible_mushroom/templates/main/index.html:12
+msgid "Poisoning"
+msgstr "Ядовитый"
+
